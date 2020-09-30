@@ -21,7 +21,7 @@ Segments corresponding to the input words are all clustered around the ground-tr
 
 ## Experimental Results
 
-We modify the way of feature concatenation in the end of CMPC module and achieve higher performances than the results reported in our paper.
+We modify the way of feature concatenation in the end of CMPC module and achieve higher performances on most splits than the results reported in our paper.
 New experimental results are summarized in the table bellow.
 You can download our trained checkpoints to test on the four datasets. The link to the checkpoints is:
 [Baidu Drive](https://pan.baidu.com/s/17TJDEiq5xA5ngN2jhsDQYA), pswd: 2miu.
@@ -29,8 +29,8 @@ You can download our trained checkpoints to test on the four datasets. The link 
 | Method | UNC val | UNC testA | UNC testB | UNC+ val | UNC+ testA | UNC+ testB | G-Ref val | ReferIt test |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | STEP-ICCV19 \[1\] | 60.04 | 63.46 | 57.97 | 48.19 | 52.33 | 40.41| 46.40 | 64.13 |
-| Ours-ECCV20 | 61.47 | 64.99 | 59.55 | 49.34 | 53.12 | 43.50 | 48.05 | 66.57 |
-|Ours-Updated | **** | **65.08** | **60.82** | **50.25** | **54.04** | **43.47** | **49.89** | **** |
+| Ours-ECCV20 | 61.47 | **64.99** | 59.55 | 49.34 | **53.12** | 43.50 | 48.05 | 66.57 |
+|Ours-Updated | **61.65** | 64.42 | **59.92** | **50.21** | 53.04 | **43.83** | **49.50** | **67.23** |
 
 ## Setup
 

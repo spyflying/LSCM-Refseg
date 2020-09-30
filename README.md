@@ -8,7 +8,7 @@ Tianrui Hui, Si Liu, Shaofei Huang, Guanbin Li, Sansi Yu, Faxi Zhang, and Jizhon
 
 ![Interpretation](lscm.png)
 
-We construct a Dependency Parsing Tree suppressed Word Graph (DPT-WG) to model multimodal context in three steps.
+We construct a **Dependency Parsing Tree suppressed Word Graph (DPT-WG)** to model multimodal context in three steps.
 
 - **Gather**. Multimodal context relevant to each word are gathered as feature of each word node.
 Therefore, each word corresponds to some visually relevant segments in the image.

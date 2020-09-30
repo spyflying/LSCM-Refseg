@@ -7,6 +7,7 @@ Tianrui Hui, Si Liu, Shaofei Huang, Guanbin Li, Sansi Yu, Faxi Zhang, and Jizhon
 ## Interpretation of LSCM.
 
 ![Interpretation](lscm.png)
+
 We construct a Dependency Parsing Tree suppressed Word Graph (DPT-WG) to model multimodal context in three steps.
 
 - **Gather**. Multimodal context relevant to each word are gathered as feature of each word node.

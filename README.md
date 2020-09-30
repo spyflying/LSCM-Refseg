@@ -23,7 +23,7 @@ Segments corresponding to the input words are all clustered around the ground-tr
 
 ## Experimental Results
 
-We modify the way of feature concatenation in the end of LSCM module and achieve higher performances on most splits than the results reported in our paper.
+We modify the way of feature concatenation in the end of LSCM module and achieve higher performances than the results reported in our paper on most splits.
 New experimental results are summarized in the table bellow.
 You can download our trained checkpoints to test on the four datasets. The link to the checkpoints is:
 [Baidu Drive](https://pan.baidu.com/share/init?surl=rOmmaTNhm8GIy93iuTBWgQ), pswd: kbhb.

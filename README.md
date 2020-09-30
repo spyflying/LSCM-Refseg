@@ -67,8 +67,8 @@ python build_batches.py -d referit -t test
 
 * **Glove Embedding Generation**
 
-Please first download GloVe Embedding (glove.840B.300d.zip) from its officail website and save it to data/.
-Then run the following commands to generate embeddings:
+Please first download [GloVe](https://nlp.stanford.edu/projects/glove/) embedding (glove.840B.300d.zip) and save it to data/.
+Then run the following commands to generate embeddings for the above four datasets:
 
 ```
  python scripts/embedding_generate.py -d referit

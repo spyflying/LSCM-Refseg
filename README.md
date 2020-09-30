@@ -4,7 +4,7 @@ Code of our ECCV 2020 paper [*Linguistic Structure Guided Context Modeling for R
 
 Tianrui Hui, Si Liu, Shaofei Huang, Guanbin Li, Sansi Yu, Faxi Zhang, and Jizhong Han.
 
-## Interpretation of LSCM.
+## Interpretation of LSCM
 
 ![Interpretation](lscm.png)
 

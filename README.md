@@ -45,7 +45,7 @@ We recommended the following dependencies.
 This code is derived from [RRN](https://github.com/liruiyu/referseg_rrn) \[2\]. Please refer to it for more details of setup.
 
 ## Data Preparation
-* Dataset Preprocessing
+* **Dataset Preprocessing**
 
 We conduct experiments on 4 datasets of referring image segmentation, including `UNC`, `UNC+`, `Gref` and `ReferIt`. After downloading these datasets, you can run the following commands for data preparation:
 ```
@@ -63,7 +63,7 @@ python build_batches.py -d referit -t trainval
 python build_batches.py -d referit -t test
 ```
 
-* Glove Embedding Generation
+* **Glove Embedding Generation**
 
 Please first download GloVe Embedding (glove.840B.300d.zip) from its officail website and save it to data/.
 Then run the following commands to generate embeddings:
@@ -73,7 +73,7 @@ Then run the following commands to generate embeddings:
  python scripts/embedding_generate.py -d Gref
 ```
 
-* Training and Evaluation
+* **Training and Evaluation**
 
 For convenience, we further provide an example bash script to train on UNC train set and evaluate on val set by running the following command:
 

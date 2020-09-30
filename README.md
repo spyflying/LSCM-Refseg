@@ -25,7 +25,7 @@ Segments corresponding to the input words are all clustered around the ground-tr
 We modify the way of feature concatenation in the end of CMPC module and achieve higher performances on most splits than the results reported in our paper.
 New experimental results are summarized in the table bellow.
 You can download our trained checkpoints to test on the four datasets. The link to the checkpoints is:
-[Baidu Drive](https://pan.baidu.com/s/17TJDEiq5xA5ngN2jhsDQYA), pswd: 2miu.
+[Baidu Drive](https://pan.baidu.com/share/init?surl=rOmmaTNhm8GIy93iuTBWgQ), pswd: kbhb.
 
 | Method | UNC val | UNC testA | UNC testB | UNC+ val | UNC+ testA | UNC+ testB | G-Ref val | ReferIt test |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |

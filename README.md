@@ -73,7 +73,7 @@ Then run the following commands to generate embeddings:
  python scripts/embedding_generate.py -d Gref
 ```
 
-* **Training and Evaluation**
+## Training and Evaluation
 
 For convenience, we further provide an example bash script to train on UNC train set and evaluate on val set by running the following command:
 

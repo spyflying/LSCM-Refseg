@@ -14,7 +14,7 @@ def load_vocab_dict_from_file(dict_file):
 
 def generate_emb(dataset):
     glove_file = '../data/glove.840B.300d.txt'
-    vocab_file = '../vocabulary_spacy_{}.txt'.format(dataset)
+    vocab_file = '../data/vocabulary_spacy_{}.txt'.format(dataset)
     npy_file = '../data/{}_spacy_emb.npy'.format(dataset)
 
     vocab_dict = load_vocab_dict_from_file(vocab_file)
